@@ -1,6 +1,14 @@
+import Navbar from "../components/Navbar"
+import IntroLog from "../components/IntroLog"
+import Welcome from "../components/Welcome"
+
 const Home = () => {
   return (
-    <h1>Hola</h1>
+    <>
+    <Navbar/>
+    <Welcome/>
+    <IntroLog/>
+    </>
   )
 }
 
