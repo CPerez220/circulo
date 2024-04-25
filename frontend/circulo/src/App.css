@@ -3,6 +3,18 @@
 }
 
 .welcome {
-  margin-top: 50px;
+  margin-top: 150px;
   text-align: center;
+}
+
+.welcome h3 {
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.welcome Button {
+  margin-top: 100px;
+  width: 250px;
+  height: 100px;
 }
