@@ -23,10 +23,33 @@
 
 .loginform {
   background-color: skyblue;
-  padding-top: 50px;
+  padding-top: 25px;
   padding-bottom: 50px;
 }
 
 .loginform h1 {
   text-align: center;
+}
+
+.welcomem {
+  background-color: whitesmoke;
+}
+
+.lefttext {
+  text-align: left;
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 500px;
+}
+
+.righttext {
+  text-align: right;
+  padding-top: 150px;
+  padding-right: 50px;
+  padding-left: 500px;
+}
+
+.centertext {
+  text-align: center;
+  padding: 150px;
 }

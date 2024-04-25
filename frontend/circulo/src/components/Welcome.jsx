@@ -10,9 +10,9 @@ const Welcome = () => {
         <Link to="/login"><Button variant="primary" size="lg">
         LOG IN
         </Button></Link>{' '}
-        <Button variant="secondary" size="lg">
+        <Link to="/register"><Button variant="secondary" size="lg">
           SIGN UP
-        </Button>
+        </Button></Link>
       </div>
     </section>
   )
