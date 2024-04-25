@@ -1,8 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-const IntroLog = () => {
+const LoginPage = () => {
   return (
+    <section className='loginform'>
+      <h1>Please Log In</h1>
     <Form className='introForm'>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
@@ -23,7 +25,8 @@ const IntroLog = () => {
         Submit
       </Button>
     </Form>
+    </section>
   );
 }
 
-export default IntroLog;
+export default LoginPage;

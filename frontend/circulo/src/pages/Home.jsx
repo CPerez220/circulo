@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar"
-import IntroLog from "../components/IntroLog"
+import WelcomeM from "../components/WelcomeM"
 import Welcome from "../components/Welcome"
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
     <>
     <Navbar/>
     <Welcome/>
-    <IntroLog/>
+    <WelcomeM/>
     </>
   )
 }
