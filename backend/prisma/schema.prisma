@@ -22,13 +22,6 @@ model User {
   password String @unique
   phoneNumber Int @unique
   agreeTerms Boolean
-  profile Profile?
-}
-
-model Profile {
-  id Int @id @default(autoincrement())
-  name User @relation(fields: [yourName], references: [username])
-  yourName String @unique
   profilePictureURL String?
   bio String?
   color String?
@@ -40,7 +33,7 @@ model Group {
   id Int @id @default(autoincrement())
   name String @unique
   info String?
-  member Profile @relation(fields: [memberId], references: [id])
+  member User @relation(fields: [memberId], references: [id])
   memberId Int @unique
   chat Chat?
 }
@@ -48,8 +41,8 @@ model Group {
 model Chat {
   id Int @id @default(autoincrement())
   message String
-  persona Profile @relation(fields: [personaId], references: [id])
-  personaId Int @unique
+  user User @relation(fields: [userId], references: [id])
+  userId Int @unique
   group Group @relation(fields:[groupId], references: [id])
   groupId Int @unique
   }
