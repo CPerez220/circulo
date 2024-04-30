@@ -37,19 +37,19 @@
 
 .lefttext {
   text-align: left;
-  padding-top: 150px;
+  padding-top: 200px;
   padding-left: 50px;
   padding-right: 500px;
 }
 
 .righttext {
   text-align: right;
-  padding-top: 150px;
+  padding-top: 200px;
   padding-right: 50px;
   padding-left: 500px;
 }
 
 .centertext {
   text-align: center;
-  padding: 150px;
+  padding: 200px;
 }
